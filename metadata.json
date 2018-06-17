@@ -1,11 +1,11 @@
 {
   "name": "puppet-make",
-  "version": "2.0.1-rc0",
+  "version": "2.1.0",
   "author": "Vox Pupuli",
   "summary": "Manage make",
   "description": "Manage make",
   "license": "Apache-2.0",
-  "source": "git://github.com/voxpupuli/puppet-make.git",
+  "source": "https://github.com/voxpupuli/puppet-make.git",
   "project_page": "https://github.com/voxpupuli/puppet-make",
   "issues_url": "https://github.com/voxpupuli/puppet-make/issues",
   "requirements": [
