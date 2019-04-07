@@ -1,1 +1,1 @@
-include ::make
+include make
