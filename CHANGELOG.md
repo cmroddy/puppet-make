@@ -4,13 +4,40 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v3.0.0](https://github.com/voxpupuli/puppet-make/tree/v3.0.0) (2019-07-28)
+## [v4.0.0](https://github.com/voxpupuli/puppet-make/tree/v4.0.0) (2021-05-18)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-make/compare/v3.0.0...v4.0.0)
+
+**Breaking changes:**
+
+- Drop EoL CentOS 6 support [\#54](https://github.com/voxpupuli/puppet-make/pull/54) ([bastelfreak](https://github.com/bastelfreak))
+- Drop EoL Puppet 5 support [\#53](https://github.com/voxpupuli/puppet-make/pull/53) ([bastelfreak](https://github.com/bastelfreak))
+- drop Ubuntu 14.04 support [\#43](https://github.com/voxpupuli/puppet-make/pull/43) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- Add Ubuntu 18.04/20.04 & CentOS 8 support [\#58](https://github.com/voxpupuli/puppet-make/pull/58) ([bastelfreak](https://github.com/bastelfreak))
+- puppetlabs/stdlib: allow 7.x [\#57](https://github.com/voxpupuli/puppet-make/pull/57) ([bastelfreak](https://github.com/bastelfreak))
+- Add datatypes + puppet-strings docs [\#56](https://github.com/voxpupuli/puppet-make/pull/56) ([bastelfreak](https://github.com/bastelfreak))
+- Support Puppet 7 [\#51](https://github.com/voxpupuli/puppet-make/pull/51) ([mattock](https://github.com/mattock))
+
+**Merged pull requests:**
+
+- Enable acceptance tests [\#55](https://github.com/voxpupuli/puppet-make/pull/55) ([bastelfreak](https://github.com/bastelfreak))
+- modulesync 3.0.0 & puppet-lint updates [\#48](https://github.com/voxpupuli/puppet-make/pull/48) ([bastelfreak](https://github.com/bastelfreak))
+- update repo links to https [\#46](https://github.com/voxpupuli/puppet-make/pull/46) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v3.0.0](https://github.com/voxpupuli/puppet-make/tree/v3.0.0) (2019-07-29)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-make/compare/v2.1.1...v3.0.0)
 
 **Breaking changes:**
 
 - modulesync 2.7.0 and drop puppet 4 [\#40](https://github.com/voxpupuli/puppet-make/pull/40) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- allow stdlib 6.x & release 3.0.0 [\#42](https://github.com/voxpupuli/puppet-make/pull/42) ([bastelfreak](https://github.com/bastelfreak))
 
 ## [v2.1.1](https://github.com/voxpupuli/puppet-make/tree/v2.1.1) (2018-10-03)
 
