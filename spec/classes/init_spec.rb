@@ -11,7 +11,7 @@ describe 'make', type: :class do
         it { is_expected.to compile.with_all_deps }
         it { is_expected.to contain_class('make') }
 
-        it { is_expected.to contain_package('make').with_ensure('present') }
+        it { is_expected.to contain_package('make').with_ensure('installed') }
       end
     end
   end
@@ -33,7 +33,7 @@ describe 'make', type: :class do
       it { is_expected.to compile.with_all_deps }
       it { is_expected.to contain_class('make') }
 
-      it { is_expected.to contain_package('gmake').with_ensure('present') }
+      it { is_expected.to contain_package('gmake').with_ensure('installed') }
     end
   end
 end
