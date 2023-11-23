@@ -22,13 +22,13 @@ Installs the 'make' package.
 ##Usage
 
 ```puppet
-  include ::make
+  include make
 ```
 
 To override the package name,
 
 ```puppet
-  class { '::make':
+  class { 'make':
     package_name => 'gmake',
   }
 ```
