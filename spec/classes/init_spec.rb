@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'make', type: :class do
   on_supported_os.each do |os, facts|
-    context "on #{os} " do
+    context "on #{os}" do
       let :facts do
         facts
       end

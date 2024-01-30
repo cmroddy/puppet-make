@@ -10,15 +10,18 @@
 
 ## Classes
 
-### `make`
+### <a name="make"></a>`make`
 
 Install the make package
 
 #### Parameters
 
-The following parameters are available in the `make` class.
+The following parameters are available in the `make` class:
 
-##### `package_name`
+* [`package_name`](#-make--package_name)
+* [`package_ensure`](#-make--package_ensure)
+
+##### <a name="-make--package_name"></a>`package_name`
 
 Data type: `String[1]`
 
@@ -26,7 +29,7 @@ the name of the package that should be installed
 
 Default value: `'make'`
 
-##### `package_ensure`
+##### <a name="-make--package_ensure"></a>`package_ensure`
 
 Data type: `String[1]`
 
